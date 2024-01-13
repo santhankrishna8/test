@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: "Arial", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+
+}
+.h {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    width:900px;
+    background: black;
+    margin-bottom: 50px;
+}
+.container{
+    font-size: 20px;
+    display: flex;
+    flex-basis: 80%;
+    margin-left: 150px;
+    gap:10px;
+
+}
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
